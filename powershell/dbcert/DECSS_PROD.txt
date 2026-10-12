@@ -1,0 +1,31 @@
+# this is a non-standard json file, it has a comments in it
+# powershell will ignore any lines with '#' at the start
+# convertfrom-json does not support comments natively
+# if you comment out an entry, make sure you handle the comma at the end of the previous entry if its the last entry.
+# updated for new decss sql2019 hostnames
+[
+    {
+        "SubjectName":  "CN=hostname7n1domain.com",
+        "AltDns":  "hostname7n1,hostname7n1domain.com,hostname7n1.domain.com,hostdcssag1,hostdcssag1domain.com,hostdcssag1.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "DECSS_PROD_NODE1"
+    },
+    {
+        "SubjectName":  "CN=hostname7n2domain.com",
+        "AltDns":  "hostname7n2,hostname7n2domain.com,hostname7n2.domain.com,hostdcssag1,hostdcssag1domain.com,hostdcssag1.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "DECSS_PROD_NODE2"
+    },
+    {
+        "SubjectName":  "CN=hostname7n3domain.com",
+        "AltDns":  "hostname7n3,hostname7n3domain.com,hostname7n3.domain.com,hostdcssag2,hostdcssag2domain.com,hostdcssag2.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "DECSS_PROD_NODE3"
+    },
+    {
+        "SubjectName":  "CN=hostname7n4domain.com",
+        "AltDns":  "hostname7n4,hostname7n4domain.com,hostname7n4.domain.com,hostdcssag2,hostdcssag2domain.com,hostdcssag2.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "DECSS_PROD_NODE4"
+    }
+]

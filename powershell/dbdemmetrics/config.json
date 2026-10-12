@@ -1,0 +1,10 @@
+[
+	{
+		"Name": "mci",
+		"Instance": "hostmcdbc1l1,15150"
+	},
+	{
+		"Name": "assist",
+		"Instance": "hostname4ls1,15150"
+	}
+]

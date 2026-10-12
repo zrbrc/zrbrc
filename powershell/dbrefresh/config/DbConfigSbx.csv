@@ -1,0 +1,6 @@
+Listener,SourceDB,TargetDB,AG,DataPath,LogPath,BakPath,FileMapping,DacPacPath,ReplaceSp,ReplaceVw,ReplaceFn,PersistTable,PreProcess,PostProcess
+# SBX
+"hostnamec2l1,15150",DMS_FORCES_PROD,DMS_FORCES_SBX,AG2022_1,D:\Data,L:\Logs,\\xx.xx.xx.xx\dbbackup\pr\hostname1\hostname1$AG2022_1\DMS_FORCES_PROD,,\\xx.xx.xx.xx\e$\STAGING\DACPAC\UATPT,_PROD|_SBX,_PROD|_SBX,_PROD|_SBX,SupportFunctionsFineGrainSecurity_T,,
+"hostnamec2l1,15150",DSSC_LIHEAP_PROD,DSSC_LIHEAP_SBX,AG2022_1,D:\Data,L:\Logs,\\xx.xx.xx.xx\dbbackup\pr\hostname1\hostname1$AG2022_1\DSSC_LIHEAP_PROD,,,_PROD|_SBX,_PROD|_SBX,_PROD|_SBX,FineGrainSecurity_T,,
+"hostnamec2l1,15150",DSS_POC_PROD,DSS_POC_SBX,AG2022_1,D:\Data,L:\Logs,\\xx.xx.xx.xx\dbbackup\pr\hostname1\hostname1$AG2022_1\DSS_POC_PROD,"DSS_POC_SBX=D:\Data\DSS_POC_SBX.mdf,DSS_POC_SBX_log=L:\Logs\DSS_POC_SBX_log.ldf",,_PROD|_SBX,_PROD|_SBX,_PROD|_SBX,FineGrainSecurity_T,,
+"hostnamec2l1,15150",DSS_SummerEBT_PROD,DSS_SummerEBT_SBX,AG2022_1,D:\Data,L:\Logs,\\xx.xx.xx.xx\dbbackup\pr\hostname1\hostname1$AG2022_1\DSS_SummerEBT_PROD,,,_PROD|_SBX,_PROD|_SBX,_PROD|_SBX,,,

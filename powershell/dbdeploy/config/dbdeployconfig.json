@@ -1,0 +1,8 @@
+[
+    {
+        "Environment": "DEV",
+        "TfsFolder": "Online",
+        "Database": "DBNAME",
+        "Instance": "ip,port"
+    }
+]

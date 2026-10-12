@@ -1,0 +1,21 @@
+@echo on
+
+net use /delete x:
+
+
+@REM Create datetime stamp
+FOR /f "tokens=2-4 delims=/ " %%a IN ('date /t') DO (SET temp_date=%%c%%a%%b)
+FOR /f "tokens=1-2 delims=/:" %%a IN ('time /t') DO (SET temp_time=%%a%%b)
+SET file_append=%temp_date%_%temp_time:~0,4%
+ECHO Enter ? for help
+
+net use x: \\hostname2MCI\M$
+
+echo q drive mapped
+
+
+#sqlcmd -S hostname2MCI\PR2012_2 -i x:\PR2014_2\Management\Scripts\DSS\WorkerWeb\Metrics\MCI.sql -o q:\Management\Scripts\DSS\WorkerWeb\Metrics\Logs\MetricsMCI.sql_%file_append%_log.txt
+
+sqlcmd -S hostname2MCI\PR2012_2 -i x:\PR2014_2\Management\Scripts\DSS\WorkerWeb\Metrics\MCI.sql -o x:\Management\Scripts\DSS\WorkerWeb\Metrics\Logs\MetricsMCI.sql_%file_append%_log.txt
+ 
+

@@ -1,0 +1,3 @@
+Listener,SourceDB,TargetDB,AG,DataPath,LogPath,BakPath,FileMapping,DacPacPath,ReplaceSp,ReplaceVw,ReplaceFn,ReplaceSyn,PersistTable,PreProcess,PostProcess
+# comment
+"localhost,1433",db1,db2,,D:\SQL\Data,D:\SQL\Log,D:\Backup,,,,,,,,,

@@ -1,0 +1,1 @@
+PS M:\Management\LogScout\Bin> .\ScheduleSQLLogScoutAsTask.ps1 -StartTime "2023-10-18 02:55" -Scenario LightPerf -SQLInstance "hostname1N1\PR2016_1" -DeleteFolderOrNew DeleteDefaultFolder -Once -DurationInMins 120

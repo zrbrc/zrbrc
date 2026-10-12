@@ -1,0 +1,1 @@
+PowerShell -noprofile -Command "& {start-process powershell -ArgumentList '-noprofile -file D:\Batch\SSIS_Executables\DSS\DEM_ServiceEndPointStatusPROD.ps1' -verb RunAs}"

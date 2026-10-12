@@ -1,0 +1,4 @@
+-- if you need to drop connections from a database before doing a restore
+ALTER DATABASE db_name SET OFFLINE WITH ROLLBACK IMMEDIATE
+ALTER DATABASE db_name SET RESTRICTED_USER
+ALTER DATABASE db_name SET ONLINE WITH ROLLBACK IMMEDIATE

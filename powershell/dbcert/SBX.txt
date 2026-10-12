@@ -1,0 +1,12 @@
+# this is a non-standard json file, it has a comment in it
+# powershell will ignore any lines with '#' at the start
+# convertfrom-json does not support comments natively
+# if you comment out an entry, make sure you handle the comma at the end of the previous entry if its the last entry.
+[
+    {
+        "SubjectName":  "CN=hostnamec2n1domain.com",
+        "AltDns":  "hostnamec2n1,hostnamec2l1,hostnamec2l1domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "SBX2022_CLS1N1_AG1"
+    }
+]

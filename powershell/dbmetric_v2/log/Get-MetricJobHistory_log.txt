@@ -1,0 +1,136 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251211060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\dbmetric\Get-MetricJobHistory.ps1
+Process ID: 7284
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Get-MetricJobHistory_log.txt
+
+Thursday, December 11, 2025 6:00:02 AM
+Querying hostname1n1\PR2022_3 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   14
+Querying hostname1n3\PR2022_4 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   16
+Querying hostname1n5\PR2022_5 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   1
+Querying hostname5n1\PR2019_1 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname5n2\PR2019_2 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   40
+Querying hostname5n3\PR2019_3 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   54
+Querying hostname5n4\PR2019_4 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname5n5\PR2019_5 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   79
+Querying hostname5n6\PR2019_6 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname6n1\PR2019_10 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname6n2\PR2019_11 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname7n1\PR2019_22 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   6
+Querying hostname7n2\PR2019_23 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   3
+Querying hostname7n3\PR2019_24 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname7n4\PR2019_25 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   31
+Querying hostname8n1\PR2019_27 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname8n2\PR2019_28 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname8n3\PR2019_29 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostmcidbc7n1\PR2019_18 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostmcidbc7n2\PR2019_19 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostmcidbc7n3\PR2019_20 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostssisc2n1\PR2019_12 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   85
+Querying hostssisc2n2\PR2019_13 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   70
+Querying hostdbcl1n1\PT2022_1 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   15
+Querying hostdbcl1n3\PT2022_2 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   15
+Querying hostdbcls2n1\PT2019_4 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostdbcls2n2\PT2019_5 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostmcidbc1n1\PT2019_1 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostmcidbc1n2\PT2019_2 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostmcidbc1n3\PT2019_3 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostnamec2n1\SB2022_1 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostnamec2n2\SB2022_2 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying depttreligdb01\TR2022_1 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   7
+Querying hostname4n1\TS2022_4 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   31
+Querying hostname4n3\TS2022_5 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   31
+Querying hostname5n1\TS2019_1 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   0
+Querying hostname5n2\TS2019_2 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   7
+Querying hostname5n3\TS2019_3 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   1
+Querying hostname6n1\TS2019_16 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname6n2\TS2019_17 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostname8n1\TS2019_17 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   10
+Querying hostname8n2\TS2019_18 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   9
+Querying hostname8n3\TS2019_19 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   1
+Querying hostname8n4\TS2019_20 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   1
+Querying hostssisc2n1\TS2019_12 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   52
+Querying hostssisc2n2\TS2019_13 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   36
+Querying hostnamecls6n1\TS2019_4 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostnamecls6n1\TS2019_5 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostnamecls6n1\TS2019_6 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostnamecls6n2\TS2019_7 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostnamecls6n2\TS2019_8 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostnamecls6n2\TS2019_9 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostmcdbc1n1\TS2019_14 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostmcdbc1n2\TS2019_15 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+Querying hostmcdbc1n3\TS2019_16 (xx.xx.xx.xx) since 12/10/2025 6:00:14 AM
+Jobs:   2
+End:   12/11/2025 6:02:47 AM
+**********************
+Windows PowerShell transcript end
+End time: 20251211060247
+**********************

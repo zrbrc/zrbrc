@@ -1,0 +1,26 @@
+CertificateName               Issuer                 IssuedDate ExpiryDate Wildcard FriendlyName                  ImplementationLocation
+---------------               ------                 ---------- ---------- -------- ------------                  ----------------------
+hostnamecls6n1domain.comdomain.comTSDC01-CA 01/21/2026 01/21/2028 NO       BZT_UAT_SQL2019_N1_20260121   xx.xx.xx.xx
+hostnamecls6n2domain.comdomain.comTSDC01-CA 01/21/2026 01/21/2028 NO       BZT_UAT_SQL2019_N2_20260121   xx.xx.xx.xx
+hostdbcls2n1domain.com domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       BZT_PT_SQL2019_N1_20260121    xx.xx.xx.xx
+hostdbcls2n2domain.com domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       BZT_PT_SQL2019_N2_20260121    xx.xx.xx.xx
+hostmcidbc1n1domain.comdomain.comTSDC01-CA 01/21/2026 01/21/2028 NO       DICER_PT_SQL2019_N1_20260121  xx.xx.xx.xx
+hostmcidbc1n2domain.comdomain.comTSDC01-CA 01/21/2026 01/21/2028 NO       DICER_PT_SQL2019_N2_20260121  xx.xx.xx.xx
+hostmcidbc1n3domain.comdomain.comTSDC01-CA 01/21/2026 01/21/2028 NO       DICER_PT_SQL2019_N3_20260121  xx.xx.xx.xx
+hostmcdbc1n1domain.comdomain.comTSDC01-CA 01/21/2026 01/21/2028 NO       DICER_TS_SQL2019_N1_20260121  xx.xx.xx.xx
+hostmcdbc1n2domain.comdomain.comTSDC01-CA 01/21/2026 01/21/2028 NO       DICER_TS_SQL2019_N2_20260121  xx.xx.xx.xx
+hostmcdbc1n3domain.comdomain.comTSDC01-CA 01/21/2026 01/21/2028 NO       DICER_TS_SQL2019_N3_20260121  xx.xx.xx.xx
+hostobt01domain.com   domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       BZT_UAT4_SQL2019_20260121     xx.xx.xx.xx
+hostomcidb01domain.comdomain.comTSDC01-CA 01/21/2026 01/21/2028 NO       DICER_UAT4_SQL2019_20260121   xx.xx.xx.xx
+hostssisrs01domain.com domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       ASSIST_PT_SSIS2022_20260121   xx.xx.xx.xx
+hsstsssisrs02domain.com  domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       ASSIST_TS_SSIS2022_20260121   xx.xx.xx.xx
+hostdbcl1n1domain.com  domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       ASSIST_PT_SQL2022_N1_20260121 xx.xx.xx.xx
+hostdbcl1n3domain.com  domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       ASSIST_PT_SQL2022_N3_20260121 xx.xx.xx.xx
+hostspdbc9n1domain.com domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       CERB_TS_SQL2019_N1_20260121   xx.xx.xx.xx
+hostspdbc9n2domain.com domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       CERB_TS_SQL2019_N2_20260121   xx.xx.xx.xx
+hostname10n1domain.com  domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       SS_TS_SQL2022_N1_20260121     xx.xx.xx.xx
+hostname10n2domain.com  domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       SS_TS_SQL2022_N2_20260121     xx.xx.xx.xx
+depttreligdb01domain.com domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       ASSIST_TR_SQL2022_20260121    xx.xx.xx.xx
+hostname4n1domain.com domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       ASSIST_TS_SQL2022_N1_20260121 xx.xx.xx.xx
+hostname4n3domain.com domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       ASSIST_TS_SQL2022_N3_20260121 xx.xx.xx.xx
+hosteligdb01domain.com domain.comTSDC01-CA 01/21/2026 01/21/2028 NO       LOAD_PT_SQL2022_20260121      xx.xx.xx.xx

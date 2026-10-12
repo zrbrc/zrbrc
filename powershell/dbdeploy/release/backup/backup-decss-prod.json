@@ -1,0 +1,21 @@
+[
+    {
+        "Instance": "hostdcssag1,15150",
+        "Name": "ONLINE",
+        "Database": [
+            "DCSE_DECSS",
+            "DCSE_DECSSRPT",
+            "DCSE_CORE_PROD"
+        ],
+        "BackupPath": "\\\\deptBKDB02\\prdcssc1\\dbdeploy\\backup"
+    },
+    {
+        "Instance": "hostdcssag2,15150",
+        "Name": "PORTAL",
+        "Database": [
+            "DCSE_DECSSCPORTAL",
+            "DCSE_DECSSEPORTAL"
+        ],
+        "BackupPath": "\\\\deptBKDB02\\prdcssc1\\dbdeploy\\backup"
+    }
+]

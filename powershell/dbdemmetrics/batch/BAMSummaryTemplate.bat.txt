@@ -1,0 +1,18 @@
+@echo off
+@REM Create datetime stamp
+FOR /f "tokens=2-4 delims=/ " %%a IN ('date /t') DO (SET temp_date=%%c%%a%%b)
+FOR /f "tokens=1-2 delims=/:" %%a IN ('time /t') DO (SET temp_time=%%a%%b)
+SET file_append=%temp_date%_%temp_time:~0,4%
+ECHO Enter ? for help
+
+IF "%1"=="-d" (
+                sqlcmd /S hostELIGDB03\PR2008_6 /d BAMPrimaryImport -v Durationhrs = %2 -E -Q "SELECT [ApplicationName],[SDSHServiceName],[SDSHOperationName],AVG(DATEDIFF( MILLISECOND, [SDSHStartTime] ,[SDSHEndTime])) AS Average,MIN(DATEDIFF( MILLISECOND, [SDSHStartTime] ,[SDSHEndTime])) AS Minimum,MAX(DATEDIFF( MILLISECOND, [SDSHStartTime] ,[SDSHEndTime])) AS Maximum,COUNT(*)  AS Requests,COUNT([Notes])  AS Errors,COUNT([Notes])*100/COUNT(*)AS ErrorPercentage FROM [BAMPrimaryImport].[dbo].[bam_SDSHTracking_Active]WHERE [SDSHStartTime] BETWEEN DATEADD(HOUR, -$(Durationhrs), getutcdate()) AND getutcdate() GROUP BY [ApplicationName],[SDSHServiceName],[SDSHOperationName];SELECT COUNT(*) AS MedicaidRequests, [VerificationCode]AS VerificationCode, [OrganizationCode] AS OrganizationCode FROM [BAMPrimaryImport].dbo.bam_NonEsiMecMedicaid_Active WHERE [SDSHStartTime] BETWEEN DATEADD(HOUR, -$(Durationhrs), getutcdate()) AND getutcdate()  GROUP BY [VerificationCode],[OrganizationCode]" -o "BAMSummary_%file_append%.csv" -s","
+               )
+IF "%1"=="-s" (
+                sqlcmd /S hostELIGDB03\PR2008_6 /d BAMPrimaryImport -v StartTime = %2 EndTime =%4 -E -Q "SELECT [ApplicationName],[SDSHServiceName],[SDSHOperationName],AVG(DATEDIFF( MILLISECOND, [SDSHStartTime] ,[SDSHEndTime])) AS Average,MIN(DATEDIFF( MILLISECOND, [SDSHStartTime] ,[SDSHEndTime])) AS Minimum,MAX(DATEDIFF( MILLISECOND, [SDSHStartTime] ,[SDSHEndTime])) AS Maximum,COUNT(*)  AS Requests,COUNT([Notes])  AS Errors,COUNT([Notes])*100/COUNT(*)AS ErrorPercentage FROM [BAMPrimaryImport].[dbo].[bam_SDSHTracking_Active] WHERE [SDSHStartTime] > $(StartTime) AND [SDSHEndTime] < $(EndTime) GROUP BY [ApplicationName],[SDSHServiceName],[SDSHOperationName];SELECT COUNT(*) AS MedicaidRequests, [VerificationCode]AS VerificationCode, [OrganizationCode] AS OrganizationCode FROM [BAMPrimaryImport].dbo.bam_NonEsiMecMedicaid_Active WHERE [SDSHStartTime] > $(StartTime) AND [SDSHEndTime] < $(EndTime) GROUP BY [VerificationCode],[OrganizationCode]" -o "BAMSummary_%file_append%.csv" -s","
+               )
+IF "%1"=="" (sqlcmd /S hostELIGDB03\PR2008_6 /d BAMPrimaryImport -E -Q "SELECT [ApplicationName],[SDSHServiceName],[SDSHOperationName],AVG(DATEDIFF( MILLISECOND, [SDSHStartTime] ,[SDSHEndTime])) AS Average,MIN(DATEDIFF( MILLISECOND, [SDSHStartTime] ,[SDSHEndTime])) AS Minimum,MAX(DATEDIFF( MILLISECOND, [SDSHStartTime] ,[SDSHEndTime])) AS Maximum,COUNT(*)  AS Requests,COUNT([Notes])  AS Errors,COUNT([Notes])*100/COUNT(*)AS ErrorPercentage FROM [BAMPrimaryImport].[dbo].[bam_SDSHTracking_Active] WHERE [SDSHStartTime] BETWEEN DATEADD(HOUR, -2, getutcdate()) AND getutcdate() GROUP BY [ApplicationName],[SDSHServiceName],[SDSHOperationName] SET ANSI_WARNINGS OFF;SELECT COUNT(*) AS MedicaidRequests, [VerificationCode]AS VerificationCode, [OrganizationCode] AS OrganizationCode FROM [BAMPrimaryImport].dbo.bam_NonEsiMecMedicaid_Active WHERE [SDSHStartTime] BETWEEN DATEADD(HOUR, -2, getutcdate()) AND getutcdate() GROUP BY [VerificationCode],[OrganizationCode] SET ANSI_WARNINGS OFF" -o "BAMSummary_%file_append%.csv" -s",")
+IF "%1"=="?" (ECHO Use -d noofhrs to get data for a specific duration from current time or -s 'startdate' -e 'enddate' for data between two specifc dates or if no input is provided it will get data for the last 2 hrs)
+
+COPY "BAMSummary_%file_append%.csv" "BAMSummary_PROD.csv"
+Move "BAMSummary_%file_append%.csv" "E:\Batch\SSIS_IO\DSS\OutputArchive"

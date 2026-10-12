@@ -1,0 +1,16 @@
+﻿
+Column1                         Column2            
+-------                         -------            
+Report Running For @BeginDate:  Oct  4 2022 12:00AM
+Report Running For @EndDate:    Oct  5 2022 12:00AM
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+
+

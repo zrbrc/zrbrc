@@ -1,0 +1,8 @@
+﻿
+Column1                         Column2   
+-------                         -------   
+Report Running For @BeginDate:  2022-08-01
+Report Running For @EndDate:    2022-09-01
+                                          
+
+

@@ -1,0 +1,1 @@
+mysqlbackup.exe --user=root --password=<password> --host=xx.xx.xx.xx --include-tables="^dph_redcap_prod\." --backup-dir=E:\temp --backup-image=E:\restore\DPH_Redcap_PROD_20240520_180002.mbi copy-back-and-apply-log

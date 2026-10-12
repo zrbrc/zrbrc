@@ -1,0 +1,18 @@
+@echo off
+@REM Create datetime stamp
+FOR /f "tokens=2-4 delims=/ " %%a IN ('date /t') DO (SET temp_date=%%c%%a%%b)
+FOR /f "tokens=1-2 delims=/:" %%a IN ('time /t') DO (SET temp_time=%%a%%b)
+SET file_append=%temp_date%_%temp_time:~0,4%
+ECHO Enter ? for help
+
+IF "%1"=="-d" (
+                sqlcmd /S PRDBCLS2DB01\PR2014_2 /d BAMPrimaryImport -v Durationhrs = %2 -E -Q "SELECT [ApplicationName],[SDSHServiceName],[SDSHOperationName],CASE WHEN [Notes] IS NULL THEN '' ELSE LTRIM(RTRIM(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(Notes, CHAR(9), ' '), CHAR(10), ' '), CHAR(11), ' '), CHAR(12), ' '), CHAR(13), ' '),',',' '))) END AS Notes,[SDSHStartTime] AS StartTime,[SDSHEndTime] AS EndTime,DATEDIFF(SECOND,[SDSHStartTime] ,[SDSHEndTime]) AS Duration FROM [bam_SDSHTracking_Active] WHERE [SDSHStartTime] BETWEEN DATEADD(HOUR, -$(Durationhrs), getutcdate()) AND getutcdate() ORDER BY [SDSHStartTime] DESC" -o "BizTalkBAMTracking2hr_%file_append%.csv" -s","
+               )
+IF "%1"=="-s" (
+                sqlcmd /S PRDBCLS2DB01\PR2014_2 /d BAMPrimaryImport -v StartTime = %2 EndTime =%4 -E -Q "SELECT [ApplicationName],[SDSHServiceName],[SDSHOperationName],CASE WHEN [Notes] IS NULL THEN '' ELSE LTRIM(RTRIM(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(Notes, CHAR(9), ' '), CHAR(10), ' '), CHAR(11), ' '), CHAR(12), ' '), CHAR(13), ' '),',',' '))) END AS Notes,[SDSHStartTime] AS StartTime,[SDSHEndTime] AS EndTime,DATEDIFF(SECOND,[SDSHStartTime] ,[SDSHEndTime]) AS Duration FROM [bam_SDSHTracking_Active] WHERE [SDSHStartTime] > $(StartTime) AND [SDSHEndTime] < $(EndTime) ORDER BY [SDSHStartTime] DESC" -o "BizTalkBAMTracking2hr_%file_append%.csv" -s","
+               )
+IF "%1"=="" (sqlcmd /S PRDBCLS2DB01\PR2014_2 /d BAMPrimaryImport -E -Q "SELECT [ApplicationName],[SDSHServiceName],[SDSHOperationName],CASE WHEN [Notes] IS NULL THEN '' ELSE LTRIM(RTRIM(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(Notes, CHAR(9), ' '), CHAR(10), ' '), CHAR(11), ' '), CHAR(12), ' '), CHAR(13), ' '),',',' '))) END AS Notes,[SDSHStartTime] AS StartTime,[SDSHEndTime] AS EndTime,DATEDIFF(SECOND,[SDSHStartTime] ,[SDSHEndTime]) AS Duration FROM [bam_SDSHTracking_Active] WHERE [SDSHStartTime] BETWEEN DATEADD(HOUR, -2, getutcdate()) AND getutcdate() ORDER BY [SDSHStartTime] DESC" -o "BizTalkBAMTracking2hr_%file_append%.csv" -s",")
+IF "%1"=="?" (ECHO Use -d noofhrs to get data for a specific duration from current time or -s 'startdate' -e 'enddate' for data between two specifc dates or if no input is provided it will get data for the last 2 hrs)
+
+COPY "BizTalkBAMTracking2hr_%file_append%.csv" "BAMData2hr_PROD.csv"
+Move "BizTalkBAMTracking2hr_%file_append%.csv" "D:\Batch\SSIS_IO\DSS\OutputArchive"

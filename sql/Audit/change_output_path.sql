@@ -1,0 +1,25 @@
+-- this is an example if you wanted change the path
+ALTER SERVER AUDIT [Audit_Change] WITH (STATE = OFF)
+ALTER SERVER AUDIT [Instance_Config_Change] WITH (STATE = OFF)
+ALTER SERVER AUDIT [Login_Change_Failed] WITH (STATE = OFF)
+ALTER SERVER AUDIT [Object_Change] WITH (STATE = OFF)
+ALTER SERVER AUDIT [Permission_Change] WITH (STATE = OFF)
+ALTER SERVER AUDIT [Principal_Change] WITH (STATE = OFF)
+ALTER SERVER AUDIT [SSA_Change] WITH (STATE = OFF)
+
+-- move folder in Explorer, then change in SQL and re-enable
+ALTER SERVER AUDIT [Audit_Change] TO FILE (	FILEPATH = N'M:\Management\Audit\')
+ALTER SERVER AUDIT [Instance_Config_Change] TO FILE ( FILEPATH = N'M:\Management\Audit\')
+ALTER SERVER AUDIT [Login_Change_Failed] TO FILE ( FILEPATH = N'M:\Management\Audit\')
+ALTER SERVER AUDIT [Object_Change] TO FILE ( FILEPATH = N'M:\Management\Audit\')
+ALTER SERVER AUDIT [Permission_Change] TO FILE ( FILEPATH = N'M:\Management\Audit\')
+ALTER SERVER AUDIT [Principal_Change] TO FILE (	FILEPATH = N'M:\Management\Audit\')
+ALTER SERVER AUDIT [SSA_Change] TO FILE ( FILEPATH = N'M:\Management\Audit\')
+
+ALTER SERVER AUDIT [Audit_Change] WITH (STATE = ON)
+ALTER SERVER AUDIT [Instance_Config_Change] WITH (STATE = ON)
+ALTER SERVER AUDIT [Login_Change_Failed] WITH (STATE = ON)
+ALTER SERVER AUDIT [Object_Change] WITH (STATE = ON)
+ALTER SERVER AUDIT [Permission_Change] WITH (STATE = ON)
+ALTER SERVER AUDIT [Principal_Change] WITH (STATE = ON)
+ALTER SERVER AUDIT [SSA_Change] WITH (STATE = ON)

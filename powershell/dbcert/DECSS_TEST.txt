@@ -1,0 +1,31 @@
+# this is a non-standard json file, it has a comments in it
+# powershell will ignore any lines with '#' at the start
+# convertfrom-json does not support comments natively
+# if you comment out an entry, make sure you handle the comma at the end of the previous entry if its the last entry.
+# updated for new decss sql2019 hostnames
+[
+    {
+        "SubjectName":  "CN=hostname8n1domain.com",
+        "AltDns":  "hostname8n1,hostname8n1.domain.com,hostdcssag,hostdcssagdomain.com,hostdcssag.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "DECSS2019_TEST_NODE1"
+    },
+    {
+        "SubjectName":  "CN=hostname8n2domain.com",
+        "AltDns":  "hostname8n2,hostname8n2.domain.com,hostdcssag,hostdcssagdomain.com,hostdcssag.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "DECSS2019_TEST_NODE2"
+    },
+    {
+        "SubjectName":  "CN=hostname8n3domain.com",
+        "AltDns":  "hostname8n3,hostname8n3.domain.com,hostdcssCPag,hostdcssCPagdomain.com,hostdcssCPag.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "DECSS2019_TEST_NODE3"
+    },
+    {
+        "SubjectName":  "CN=hostname8n4domain.com",
+        "AltDns":  "hostname8n4,hostname8n4.domain.com,hostdcssCPag,hostdcssCPagdomain.com,hostdcssCPag.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "DECSS2019_TEST_NODE4"
+    }
+]

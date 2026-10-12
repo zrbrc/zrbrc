@@ -1,0 +1,9 @@
+﻿
+Column1                       Column2   
+-------                       -------   
+Report Running For AsofDate:  2022-10-04
+                                        
+                                        
+                                        
+
+

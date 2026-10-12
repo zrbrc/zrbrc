@@ -1,0 +1,735 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251121090946
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 9152
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Environment ServerName      IPAddress      DriveLetter    SizeGB FreePercent ForecastedExhaustion
+----------- ----------      ---------      -----------    ------ ----------- --------------------
+PROD        hostname1N1  xx.xx.xx.xx Y:          2,610,823 38.34%      2026-05-11
+PROD        hostname7N1  xx.xx.xx.xx  Y:            511,981 77.60%      2026-03-09
+PROD        hostname7N2  xx.xx.xx.xx  Y:            511,981 62.32%      2026-05-03
+PROD        hostname7N3  xx.xx.xx.xx  Y:            153,581 80.74%      2026-03-10
+PROD        hostEL2AP11   xx.xx.xx.xx  C:             50,846 26.97%      2026-02-12
+PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:            204,781 53.57%      2026-04-21
+OTHR        hostDBCL1N1   xx.xx.xx.xx  L:            409,469 58.29%      2026-05-10
+OTHR        hostDBCL1N3   xx.xx.xx.xx L:            409,469 59.35%      2026-05-10
+TEST        hostname4N1  xx.xx.xx.xx D:          7,025,328 7.99%       2026-01-18
+TEST        hostname4N3  xx.xx.xx.xx D:          7,025,328 7.91%       2026-01-17
+TEST        hostname8N1  xx.xx.xx.xx   L:            767,981 32.47%      2026-03-14
+TEST        hostname8N2  xx.xx.xx.xx   L:            767,981 32.54%      2026-03-14
+TEST        hostSSISRS02  xx.xx.xx.xx D:            153,581 14.49%      2026-02-09
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251121091001
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251121091359
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 992
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Environment ServerName      IPAddress      DriveLetter    SizeGB FreePercent ForecastedExhaustion
+----------- ----------      ---------      -----------    ------ ----------- --------------------
+PROD        hostname1N1  xx.xx.xx.xx Y:          2,610,823 38.34%      2026-05-11
+PROD        hostname7N1  xx.xx.xx.xx  Y:            511,981 77.60%      2026-03-09
+PROD        hostname7N2  xx.xx.xx.xx  Y:            511,981 62.32%      2026-05-03
+PROD        hostname7N3  xx.xx.xx.xx  Y:            153,581 80.74%      2026-03-10
+PROD        hostEL2AP11   xx.xx.xx.xx  C:             50,846 26.97%      2026-02-12
+PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:            204,781 53.57%      2026-04-21
+OTHR        hostDBCL1N1   xx.xx.xx.xx  L:            409,469 58.29%      2026-05-10
+OTHR        hostDBCL1N3   xx.xx.xx.xx L:            409,469 59.35%      2026-05-10
+TEST        hostname4N1  xx.xx.xx.xx D:          7,025,328 7.99%       2026-01-18
+TEST        hostname4N3  xx.xx.xx.xx D:          7,025,328 7.91%       2026-01-17
+TEST        hostname8N1  xx.xx.xx.xx   L:            767,981 32.47%      2026-03-14
+TEST        hostname8N2  xx.xx.xx.xx   L:            767,981 32.54%      2026-03-14
+TEST        hostSSISRS02  xx.xx.xx.xx D:            153,581 14.49%      2026-02-09
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251121091414
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251121091622
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 8364
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter    SizeGB FreePercent ForecastedE
+                                                                                        xhaustion
+----       ----------- ----------      ---------      -----------    ------ ----------- -----------
+2025-11-21 PROD        hostname1N1  xx.xx.xx.xx Y:          2,610,823 38.34%      2026-05-11
+2025-11-21 PROD        hostname7N1  xx.xx.xx.xx  Y:            511,981 77.60%      2026-03-09
+2025-11-21 PROD        hostname7N2  xx.xx.xx.xx  Y:            511,981 62.32%      2026-05-03
+2025-11-21 PROD        hostname7N3  xx.xx.xx.xx  Y:            153,581 80.74%      2026-03-10
+2025-11-21 PROD        hostEL2AP11   xx.xx.xx.xx  C:             50,846 26.97%      2026-02-12
+2025-11-21 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:            204,781 53.57%      2026-04-21
+2025-11-21 OTHR        hostDBCL1N1   xx.xx.xx.xx  L:            409,469 58.29%      2026-05-10
+2025-11-21 OTHR        hostDBCL1N3   xx.xx.xx.xx L:            409,469 59.35%      2026-05-10
+2025-11-21 TEST        hostname4N1  xx.xx.xx.xx D:          7,025,328 7.99%       2026-01-18
+2025-11-21 TEST        hostname4N3  xx.xx.xx.xx D:          7,025,328 7.91%       2026-01-17
+2025-11-21 TEST        hostname8N1  xx.xx.xx.xx   L:            767,981 32.47%      2026-03-14
+2025-11-21 TEST        hostname8N2  xx.xx.xx.xx   L:            767,981 32.54%      2026-03-14
+2025-11-21 TEST        hostSSISRS02  xx.xx.xx.xx D:            153,581 14.49%      2026-02-09
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251121091637
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251124060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 7088
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-11-24 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      66.36% 2026-02-25
+2025-11-24 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-09
+2025-11-24 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-02-28
+2025-11-24 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.88% 2026-04-24
+2025-11-24 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-04-25
+2025-11-24 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      58.19% 2026-05-13
+2025-11-24 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      59.25% 2026-05-12
+2025-11-24 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      33.81% 2026-03-18
+2025-11-24 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      33.88% 2026-03-18
+2025-11-24 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.45% 2026-02-13
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251124060017
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251125060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 9040
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-11-25 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      66.36% 2026-02-26
+2025-11-25 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-11
+2025-11-25 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-01
+2025-11-25 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.87% 2026-04-25
+2025-11-25 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-04-26
+2025-11-25 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      58.26% 2026-05-14
+2025-11-25 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      59.31% 2026-05-13
+2025-11-25 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      27.30% 2026-03-22
+2025-11-25 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      27.37% 2026-03-21
+2025-11-25 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.44% 2026-02-15
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251125060018
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251126060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 2116
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-11-26 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      66.36% 2026-02-27
+2025-11-26 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-13
+2025-11-26 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-02
+2025-11-26 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      25.94% 2026-04-24
+2025-11-26 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-04-28
+2025-11-26 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      58.41% 2026-05-16
+2025-11-26 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      59.47% 2026-05-15
+2025-11-26 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      31.83% 2026-03-12
+2025-11-26 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      31.90% 2026-03-11
+2025-11-26 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.43% 2026-02-16
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251126060019
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251127060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 7776
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-11-27 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      55.15% 2026-02-28
+2025-11-27 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-15
+2025-11-27 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-03
+2025-11-27 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      25.92% 2026-04-22
+2025-11-27 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-04-29
+2025-11-27 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      46.99% 2026-04-30
+2025-11-27 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      48.04% 2026-04-30
+2025-11-27 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      29.58% 2026-03-12
+2025-11-27 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      29.65% 2026-03-12
+2025-11-27 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.41% 2026-02-17
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251127060017
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251128060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 2164
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-11-28 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      55.15% 2026-02-17
+2025-11-28 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-17
+2025-11-28 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-04
+2025-11-28 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      25.88% 2026-04-23
+2025-11-28 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-04-30
+2025-11-28 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      47.04% 2026-04-14
+2025-11-28 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      48.09% 2026-04-14
+2025-11-28 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      29.58% 2026-03-16
+2025-11-28 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      29.65% 2026-03-15
+2025-11-28 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.40% 2026-02-19
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251128060018
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251201060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 3216
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-12-01 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      55.15% 2026-02-16
+2025-12-01 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-24
+2025-12-01 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-08
+2025-12-01 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.93% 2026-05-02
+2025-12-01 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-05-05
+2025-12-01 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      47.05% 2026-04-16
+2025-12-01 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      48.10% 2026-04-15
+2025-12-01 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      29.58% 2026-03-16
+2025-12-01 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      29.65% 2026-03-16
+2025-12-01 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.38% 2026-02-23
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251201060018
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251201094142
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 6688
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-12-01 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      55.15% 2026-02-16
+2025-12-01 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-24
+2025-12-01 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-08
+2025-12-01 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.92% 2026-05-02
+2025-12-01 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-05-05
+2025-12-01 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      47.38% 2026-04-16
+2025-12-01 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      48.43% 2026-04-15
+2025-12-01 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      29.71% 2026-03-16
+2025-12-01 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      29.78% 2026-03-16
+2025-12-01 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.38% 2026-02-23
+
+
+No email sent, nothing exhausting with-in 30 days.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251201094157
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251202060002
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 968
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-12-02 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      55.15% 2026-02-17
+2025-12-02 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-26
+2025-12-02 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-09
+2025-12-02 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.90% 2026-05-03
+2025-12-02 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-05-06
+2025-12-02 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      47.12% 2026-04-16
+2025-12-02 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      48.18% 2026-04-16
+2025-12-02 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      29.71% 2026-03-17
+2025-12-02 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      29.78% 2026-03-17
+2025-12-02 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.34% 2026-02-24
+
+
+No email sent, nothing exhausting with-in 30 days.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251202060019
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251203060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 7964
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-12-03 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      55.15% 2026-02-18
+2025-12-03 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-28
+2025-12-03 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-10
+2025-12-03 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.89% 2026-05-05
+2025-12-03 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-05-08
+2025-12-03 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      47.14% 2026-04-17
+2025-12-03 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      48.19% 2026-04-16
+2025-12-03 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      23.53% 2026-03-06
+2025-12-03 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      23.60% 2026-03-06
+2025-12-03 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.32% 2026-02-26
+
+
+No email sent, nothing exhausting with-in 30 days.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251203060017
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251204060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 6784
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-12-04 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      55.15% 2026-02-19
+2025-12-04 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-05-30
+2025-12-04 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-11
+2025-12-04 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.89% 2026-05-06
+2025-12-04 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-05-09
+2025-12-04 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      47.31% 2026-04-17
+2025-12-04 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      48.37% 2026-04-17
+2025-12-04 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      20.73% 2026-02-22
+2025-12-04 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      21.60% 2026-02-22
+2025-12-04 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.31% 2026-02-27
+
+
+No email sent, nothing exhausting with-in 30 days.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251204060018
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251205060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 8156
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-12-05 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      55.15% 2026-02-20
+2025-12-05 PROD        hostname7N2  xx.xx.xx.xx  Y:          511,981      62.32% 2026-06-01
+2025-12-05 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-12
+2025-12-05 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.85% 2026-05-07
+2025-12-05 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-05-11
+2025-12-05 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      56.18% 2026-04-29
+2025-12-05 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      57.24% 2026-04-28
+2025-12-05 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      25.68% 2026-03-01
+2025-12-05 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      25.75% 2026-03-01
+2025-12-05 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.30% 2026-03-01
+
+
+No email sent, nothing exhausting with-in 30 days.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251205060018
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251208060002
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 7932
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-12-08 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      77.48% 2026-03-25
+2025-12-08 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-16
+2025-12-08 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.90% 2026-05-10
+2025-12-08 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-05-15
+2025-12-08 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      55.49% 2026-05-14
+2025-12-08 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      56.55% 2026-05-13
+2025-12-08 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      17.54% 2026-02-09
+2025-12-08 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      17.61% 2026-02-09
+2025-12-08 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.20% 2026-03-05
+
+
+No email sent, nothing exhausting with-in 30 days.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251208060005
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251209060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 3696
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------  ------ ----------- --------
+2025-12-09 PROD        hostname7N1  xx.xx.xx.xx  Y:          511,981      77.48% 2026-03-26
+2025-12-09 PROD        hostname7N3  xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-17
+2025-12-09 PROD        hostEL2AP11   xx.xx.xx.xx  C:           50,846      26.85% 2026-05-12
+2025-12-09 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:          204,781      53.57% 2026-05-17
+2025-12-09 PT          hostDBCL1N1   xx.xx.xx.xx  L:          409,469      56.12% 2026-05-15
+2025-12-09 PT          hostDBCL1N3   xx.xx.xx.xx L:          409,469      57.18% 2026-05-14
+2025-12-09 TEST        hostname8N1  xx.xx.xx.xx   L:          767,981      23.02% 2026-03-03
+2025-12-09 TEST        hostname8N2  xx.xx.xx.xx   L:          767,981      23.09% 2026-03-02
+2025-12-09 TEST        hostSSISRS02  xx.xx.xx.xx D:          153,581      14.19% 2026-03-06
+
+
+No email sent, nothing exhausting with-in 30 days.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251209060004
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251210060001
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 3756
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName      IPAddress      DriveLetter    SizeGB FreePercent Forecast
+----       ----------- ----------      ---------      -----------    ------ ----------- --------
+2025-12-10 PROD        hostname1N1  xx.xx.xx.xx Y:          2,610,823      33.08% 2026-04-28
+2025-12-10 PROD        hostname7N1  xx.xx.xx.xx  Y:            511,981      77.48% 2026-03-27
+2025-12-10 PROD        hostname7N3  xx.xx.xx.xx  Y:            153,581      71.07% 2026-03-18
+2025-12-10 PROD        hostEL2AP11   xx.xx.xx.xx  C:             50,846      26.83% 2026-05-13
+2025-12-10 PROD        hostMCIDBC7N2 xx.xx.xx.xx  Y:            204,781      53.57% 2026-05-18
+2025-12-10 PT          hostDBCL1N1   xx.xx.xx.xx  L:            409,469      56.22% 2026-05-17
+2025-12-10 PT          hostDBCL1N3   xx.xx.xx.xx L:            409,469      57.27% 2026-05-16
+2025-12-10 TEST        hostname8N1  xx.xx.xx.xx   L:            767,981      25.80% 2026-03-06
+2025-12-10 TEST        hostname8N2  xx.xx.xx.xx   L:            767,981      25.86% 2026-03-06
+2025-12-10 TEST        hostSSISRS02  xx.xx.xx.xx D:            153,581      14.23% 2026-03-07
+
+
+No email sent, nothing exhausting with-in 30 days.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251210060004
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251211060002
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\Alert-DriveForecastExhaustion.ps1
+Process ID: 5852
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Alert-DriveForecastExhaustion_log.txt
+
+Date       Environment ServerName     IPAddress      DriveLetter  SizeGB FreePercent Forecast
+----       ----------- ----------     ---------      -----------  ------ ----------- --------
+2025-12-11 PROD        hostname7N1 xx.xx.xx.xx  Y:          511,981      77.48% 2026-03-28
+2025-12-11 PROD        hostname7N3 xx.xx.xx.xx  Y:          153,581      71.07% 2026-03-19
+2025-12-11 PROD        hostEL2AP11  xx.xx.xx.xx  C:           50,846      26.86% 2026-05-14
+2025-12-11 PT          hostDBCL1N1  xx.xx.xx.xx  L:          409,469      56.00% 2026-05-18
+2025-12-11 PT          hostDBCL1N3  xx.xx.xx.xx L:          409,469      57.06% 2026-05-17
+2025-12-11 TEST        hostname8N1 xx.xx.xx.xx   L:          767,981      23.93% 2026-03-07
+2025-12-11 TEST        hostname8N2 xx.xx.xx.xx   L:          767,981      24.00% 2026-03-06
+2025-12-11 TEST        hostSSISRS02 xx.xx.xx.xx D:          153,581      14.21% 2026-03-09
+
+
+No email sent, nothing exhausting with-in 30 days.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20251211060010
+**********************

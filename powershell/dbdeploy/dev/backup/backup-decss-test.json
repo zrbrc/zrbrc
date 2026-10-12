@@ -1,0 +1,26 @@
+[
+    {
+        "Instance": "hostdcssag,15150",
+        "Name": "ONLINE",
+        "Database": [
+            "DCSE_DECSS_TEST",
+            "DCSE_DECSS_FEDCERT",
+            "DCSE_DECSSTIMEWARP_TEST",
+            "DCSE_DECSSRPT_TEST",
+            "DCSE_DECSSRPT_FEDCERT",
+            "DCSE_DECSSRPTTIMEWARP_TEST"
+        ],
+        "BackupPath": "\\\\deptBKDBTS01\\tsdcssc2\\dbdeploy\\backup"
+    },
+    {
+        "Instance": "hostdcssCPag,15150",
+        "Name": "PORTAL",
+        "Database": [
+            "DCSE_DECSSCPORTAL_TEST",
+            "DCSE_DECSSEPORTAL_TEST",
+            "DCSE_DECSSCPORTAL_TIMEWARP",
+            "DCSE_DECSSEPORTAL_TIMEWARP"
+        ],
+        "BackupPath": "\\\\deptBKDBTS01\\tsdcssc2\\dbdeploy\\backup"
+    }
+]

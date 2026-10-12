@@ -1,0 +1,27 @@
+use [DSS_WorkerWeb_PROD];
+GO
+
+DECLARE @INPUTSTARTDATE DATETIME = cast(getdate() -1 as date);
+DECLARE @INPUTENDDATE DATETIME;
+
+SET @INPUTSTARTDATE = DATEADD(HOUR, 11, @INPUTSTARTDATE);
+SET @INPUTENDDATE = DATEADD(Hour, 14, @INPUTSTARTDATE);
+
+
+SELECT 'Report Running For @INPUTSTARTDATE: ' ,Cast(@INPUTSTARTDATE  AS VARCHAR(30));
+SELECT 'Report Running For @INPUTENDDATE: ' ,Cast(@INPUTENDDATE  AS VARCHAR(30));
+
+WITH APPCOUNT_CTE (Application_IDNO,LastSaved_DTTM)
+AS
+(
+SELECT CAG.Application_IDNO AS Application_IDNO ,E.LastSaved_DTTM 
+FROM [dbo].[CaseAssistanceGroup_T] CAG JOIN [dbo].[Eligibility_T] E ON CAG.CaseAssistanceGroup_IDNO=E.CaseAssistanceGroup_IDNO
+WHERE E.CurrentEligibility_INDC IN ('1','9')
+AND E.LastSaved_DTTM >= @INPUTSTARTDATE AND  E.LastSaved_DTTM  < @INPUTENDDATE
+GROUP BY CAG.Application_IDNO,E.LastSaved_DTTM )
+
+SELECT COUNT(Application_IDNO) AS [Cases Confirmed] FROM APPCOUNT_CTE;
+
+
+GO
+

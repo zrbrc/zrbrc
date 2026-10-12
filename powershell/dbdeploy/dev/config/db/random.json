@@ -1,0 +1,8 @@
+[
+    {
+        "Application": "RANDOM",
+        "Environment": "LOCAL",
+        "DATABASE": "random_db",
+        "Instance": "localhost,15150"
+    }
+]

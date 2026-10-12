@@ -1,0 +1,12 @@
+-- the where clause is whats used in the filter pane, the rest of the query is understood already
+( not
+	(
+	[object_name]='telemetry_xevents' OR 
+	[statement] like 'create event session telemetry_xevents%' OR
+	[server_principal_name] like '%sentry%' OR 
+	[statement] like 'RESTORE VERIFYONLY%' OR 
+	[statement] like 'RESTORE LABELONLY%' OR
+	[statement] like 'UPDATE STAT%' OR
+	[action_id] = 538990422 -- this needs to be the ID for the filter pane
+	)
+)

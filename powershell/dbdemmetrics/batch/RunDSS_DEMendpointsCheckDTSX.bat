@@ -1,0 +1,1 @@
+"C:\Program Files\Microsoft SQL Server\120\DTS\Binn\DTExec.exe" /FILE "\"D:\Batch\SSISpackages\DSS\DEMendpoints.dtsx\""  /CONFIGFILE "\"D:\Batch\SSISConfigFiles\DSS\ServiceEndpointCheck.dtsConfig\"" /CHECKPOINTING OFF /REPORTING E

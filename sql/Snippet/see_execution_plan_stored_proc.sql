@@ -1,0 +1,18 @@
+
+
+SET SHOWPLAN_ALL ON
+GO
+
+-- FMTONLY will not exec stored proc
+SET FMTONLY ON
+GO
+
+exec <yourproc>
+GO
+
+SET FMTONLY OFF
+GO
+
+SET SHOWPLAN_ALL OFF
+GO
+

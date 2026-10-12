@@ -1,0 +1,19 @@
+# this is a non-standard json file, it has a comments in it
+# powershell will ignore any lines with '#' at the start
+# convertfrom-json does not support comments natively
+# if you comment out an entry, make sure you handle the comma at the end of the previous entry if its the last entry.
+# updated for new decss sql2019 hostnames
+[
+    {
+        "SubjectName":  "CN=hostname4n1domain.com",
+        "AltDns":  "hostname4n1,hostname4n1.domain.com,hostname4ls1,hostname4ls1domain.com,hostname4ls1.domain.com,hostname4ls2,hostname4ls2domain.com,hostname4ls2.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "ASSIST2022_TEST_NODE1"
+    },
+    {
+        "SubjectName":  "CN=hostname4n3domain.com",
+        "AltDns":  "hostname4n3,hostname4n3.domain.com,hostname4ls1,hostname4ls1domain.com,hostname4ls1.domain.com,hostname4ls2,hostname4ls2domain.com,hostname4ls2.domain.com",
+        "AltIp":  "xx.xx.xx.xx,xx.xx.xx.xx,xx.xx.xx.xx",
+        "FriendlyName":  "ASSIST2022_TEST_NODE3"
+    }
+]

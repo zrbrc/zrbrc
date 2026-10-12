@@ -1,0 +1,10 @@
+USE DBA
+GO
+
+SELECT * FROM Servers_T WHERE Domain = 'domTEST' AND DMZ = 'EL2'
+SELECT TOP (20) * FROM LogonErrors_T
+SELECT TOP (20) * FROM Jobs_T
+SELECT TOP (20) * FROM DriveStats_T
+SELECT TOP (20) * FROM BackupHistory_T
+SELECT TOP (20) * FROM Audits_T
+SELECT TOP (20) * FROM Blitz_T

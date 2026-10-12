@@ -1,0 +1,9 @@
+USE [master]
+GO
+CREATE LOGIN [sqlmetrics] WITH PASSWORD=N'<>', DEFAULT_DATABASE=[master], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
+GO
+USE [msdb]
+GO
+CREATE USER [sqlmetrics] FOR LOGIN [sqlmetrics]
+ALTER ROLE [SQLAgentReaderRole] ADD MEMBER [sqlmetrics]
+GO

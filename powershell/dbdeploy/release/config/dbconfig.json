@@ -1,0 +1,317 @@
+[
+    {
+        "Application": "DECSS",
+        "Environment": "DEV",
+        "TfsEnvironment": "DEV",
+        "Rank": 50,
+        "Area": "Online",
+        "Database": "DCSE_DECSS_DEV",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "DEV",
+        "TfsEnvironment": "DEV",
+        "Rank": 50,
+        "Area": "Online",
+        "Database": "DCSE_BATCHTIMEWARP_DEV",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "DEV",
+        "TfsEnvironment": "DEV",
+        "Rank": 50,
+        "Area": "Reporting",
+        "Database": "DCSE_DECSSRPT_DEV",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "DEV",
+        "TfsEnvironment": "DEV",
+        "Rank": 50,
+        "Area": "Reporting",
+        "Database": "DCSE_BATCHRPTTIMEWARP_DEV",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "DEV",
+        "TfsEnvironment": "DEV",
+        "Rank": 50,
+        "Area": "EPortal",
+        "Database": "DCSE_DECSSEPORTAL_DEV",
+        "Instance": "host06,15151"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "DEV",
+        "TfsEnvironment": "DEV",
+        "Rank": 50,
+        "Area": "CPortal",
+        "Database": "DCSE_DECSSCPORTAL_DEV",
+        "Instance": "host06,15151"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "UIT",
+        "TfsEnvironment": "UIT",
+        "Rank": 40,
+        "Area": "Online",
+        "Database": "DCSE_DECSS_UIT",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "UIT",
+        "TfsEnvironment": "UIT",
+        "Rank": 40,
+        "Area": "Online",
+        "Database": "DCSE_DECSSTIMEWARP_UIT",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "UIT",
+        "TfsEnvironment": "UIT",
+        "Rank": 40,
+        "Area": "Reporting",
+        "Database": "DCSE_DECSSRPT_UIT",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "UIT",
+        "TfsEnvironment": "UIT",
+        "Rank": 40,
+        "Area": "Reporting",
+        "Database": "DCSE_DECSSRPTTIMEWARP_UIT",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "UIT",
+        "TfsEnvironment": "UIT",
+        "Rank": 40,
+        "Area": "EPortal",
+        "Database": "DCSE_DECSSEPORTAL_UIT",
+        "Instance": "host06,15151"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "UIT",
+        "TfsEnvironment": "UIT",
+        "Rank": 40,
+        "Area": "CPortal",
+        "Database": "DCSE_DECSSCPORTAL_UIT",
+        "Instance": "host06,15151"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "SIT",
+        "TfsEnvironment": "SIT",
+        "Rank": 30,
+        "Area": "Online",
+        "Database": "DCSE_DECSS_SIT",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "SIT",
+        "TfsEnvironment": "SIT",
+        "Rank": 30,
+        "Area": "Online",
+        "Database": "DCSE_DECSSTIMEWARP_SIT",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "SIT",
+        "TfsEnvironment": "SIT",
+        "Rank": 30,
+        "Area": "Reporting",
+        "Database": "DCSE_DECSSRPT_SIT",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "SIT",
+        "TfsEnvironment": "SIT",
+        "Rank": 30,
+        "Area": "Reporting",
+        "Database": "DCSE_DECSSRPTTIMEWARP_SIT",
+        "Instance": "host06,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "SIT",
+        "TfsEnvironment": "SIT",
+        "Rank": 30,
+        "Area": "EPortal",
+        "Database": "DCSE_DECSSEPORTAL_SIT",
+        "Instance": "host06,15151"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "SIT",
+        "TfsEnvironment": "SIT",
+        "Rank": 30,
+        "Area": "CPortal",
+        "Database": "DCSE_DECSSCPORTAL_SIT",
+        "Instance": "host06,15151"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "FEDCERT",
+        "TfsEnvironment": "UAT",
+        "Rank": 20,
+        "Area": "Online",
+        "Database": "DCSE_DECSS_FEDCERT",
+        "Instance": "hostDCSSAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "FEDCERT",
+        "TfsEnvironment": "UAT",
+        "Rank": 20,
+        "Area": "Reporting",
+        "Database": "DCSE_DECSSRPT_FEDCERT",
+        "Instance": "hostDCSSAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "TEST",
+        "TfsEnvironment": "UAT",
+        "Rank": 10,
+        "Area": "Online",
+        "Database": "DCSE_DECSS_TEST",
+        "Instance": "hostDCSSAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "TEST",
+        "TfsEnvironment": "UAT",
+        "Rank": 10,
+        "Area": "Reporting",
+        "Database": "DCSE_DECSSRPT_TEST",
+        "Instance": "hostDCSSAG,15150"
+    }, 
+    {
+        "Application": "DECSS",
+        "Environment": "TEST",
+        "TfsEnvironment": "UAT",
+        "Rank": 10,
+        "Area": "Logs",
+        "Database": "DCSE_DECSS_LOGS_TEST",
+        "Instance": "hostDCSSAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "TEST",
+        "TfsEnvironment": "UAT",
+        "Rank": 10,
+        "Area": "EPortal",
+        "Database": "DCSE_DECSSEPORTAL_TEST",
+        "Instance": "hostDCSSCPAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "TEST",
+        "TfsEnvironment": "UAT",
+        "Rank": 10,
+        "Area": "CPortal",
+        "Database": "DCSE_DECSSCPORTAL_TEST",
+        "Instance": "hostDCSSCPAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "TIMEWARP",
+        "TfsEnvironment": "UAT",
+        "Rank": 15,
+        "Area": "Online",
+        "Database": "DCSE_DECSSTIMEWARP_TEST",
+        "Instance": "hostDCSSAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "TIMEWARP",
+        "TfsEnvironment": "UAT",
+        "Rank": 15,
+        "Area": "Reporting",
+        "Database": "DCSE_DECSSRPTTIMEWARP_TEST",
+        "Instance": "hostDCSSAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "TIMEWARP",
+        "TfsEnvironment": "UAT",
+        "Rank": 15,
+        "Area": "Logs",
+        "Database": "DCSE_DECSS_LOGSTIMEWARP_TEST",
+        "Instance": "hostDCSSAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "TIMEWARP",
+        "TfsEnvironment": "UAT",
+        "Rank": 15,
+        "Area": "EPortal",
+        "Database": "DCSE_DECSSEPORTAL_TIMEWARP",
+        "Instance": "hostDCSSCPAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "TIMEWARP",
+        "TfsEnvironment": "UAT",
+        "Rank": 15,
+        "Area": "CPortal",
+        "Database": "DCSE_DECSSCPORTAL_TIMEWARP",
+        "Instance": "hostDCSSCPAG,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "PROD",
+        "TfsEnvironment": "PROD",
+        "Rank": 0,
+        "Area": "Online",
+        "Database": "DCSE_DECSS",
+        "Instance": "hostDCSSAG1,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "PROD",
+        "TfsEnvironment": "PROD",
+        "Rank": 0,
+        "Area": "Reporting",
+        "Database": "DCSE_DECSSRPT",
+        "Instance": "hostDCSSAG1,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "PROD",
+        "TfsEnvironment": "PROD",
+        "Rank": 0,
+        "Area": "Logs",
+        "Database": "DCSE_DECSS_LOGS",
+        "Instance": "hostDCSSAG1,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "PROD",
+        "TfsEnvironment": "PROD",
+        "Rank": 0,
+        "Area": "EPortal",
+        "Database": "DCSE_DECSSEPORTAL",
+        "Instance": "hostDCSSAG2,15150"
+    },
+    {
+        "Application": "DECSS",
+        "Environment": "PROD",
+        "TfsEnvironment": "PROD",
+        "Rank": 0,
+        "Area": "CPortal",
+        "Database": "DCSE_DECSSCPORTAL",
+        "Instance": "hostDCSSAG2,15150"
+    }
+]

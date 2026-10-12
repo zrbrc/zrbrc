@@ -1,0 +1,203 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251210142828
+Username: STATE\sqladmin.dept
+RunAs User: STATE\sqladmin.dept
+Configuration Name: 
+Machine: hostBTUTIL01 (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -NoProfile -ExecutionPolicy Bypass -File D:\Scripts\MSSQL\dbmetric\Get-AllDatabases.ps1
+Process ID: 7420
+PSVersion: 5.1.20348.4294
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.4294
+BuildVersion: 10.0.20348.4294
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: xx.xx.xx.xx
+**********************
+Transcript started, output file is .\Get-AllDatabases_log.txt
+
+Wednesday, December 10, 2025 2:28:28 PM
+
+
+
+Servername      Instance  IP             Port
+----------      --------  --             ----
+hostname6n1  PR2019_10 xx.xx.xx.xx  15150
+hostname6n2  PR2019_11 xx.xx.xx.xx  15150
+hostname8n1  PR2019_27 xx.xx.xx.xx 15150
+hostname8n2  PR2019_28 xx.xx.xx.xx 15150
+hostname8n3  PR2019_29 xx.xx.xx.xx 15150
+hostmcidbc7n1 PR2019_18 xx.xx.xx.xx  15150
+hostmcidbc7n2 PR2019_19 xx.xx.xx.xx  15150
+hostmcidbc7n3 PR2019_20 xx.xx.xx.xx  15150
+hostssisc2n1  PR2019_12 xx.xx.xx.xx 15150
+hostssisc2n2  PR2019_13 xx.xx.xx.xx 15150
+hostname5n1  PR2019_1  xx.xx.xx.xx  15150
+hostname5n2  PR2019_2  xx.xx.xx.xx  15150
+hostname5n3  PR2019_3  xx.xx.xx.xx  15150
+hostname5n4  PR2019_4  xx.xx.xx.xx  15150
+hostname5n5  PR2019_5  xx.xx.xx.xx  15150
+hostname5n6  PR2019_6  xx.xx.xx.xx  15150
+hostname7n1  PR2019_22 xx.xx.xx.xx  15150
+hostname7n2  PR2019_23 xx.xx.xx.xx  15150
+hostname7n3  PR2019_24 xx.xx.xx.xx  15150
+hostname7n4  PR2019_25 xx.xx.xx.xx  15150
+hostname1n1  PR2022_3  xx.xx.xx.xx 15150
+hostname1n3  PR2022_4  xx.xx.xx.xx 15150
+hostname1n5  PR2022_5  xx.xx.xx.xx 15150
+hostnidbc2n1  PR2019_16 xx.xx.xx.xx  15150
+hostnidbc2n2  PR2019_17 xx.xx.xx.xx  15150
+hostnamecls6n1 TS2019_4  xx.xx.xx.xx 15151
+hostnamecls6n1 TS2019_5  xx.xx.xx.xx 15152
+hostnamecls6n1 TS2019_6  xx.xx.xx.xx 15153
+hostnamecls6n2 TS2019_7  xx.xx.xx.xx 15151
+hostnamecls6n2 TS2019_8  xx.xx.xx.xx 15152
+hostnamecls6n2 TS2019_9  xx.xx.xx.xx 15153
+hostdbcls2n1  PT2019_4  xx.xx.xx.xx 15150
+hostdbcls2n2  PT2019_5  xx.xx.xx.xx 15150
+hostmcidbc1n1 PT2019_1  xx.xx.xx.xx  15150
+hostmcidbc1n2 PT2019_2  xx.xx.xx.xx  15150
+hostmcidbc1n3 PT2019_3  xx.xx.xx.xx  15150
+hostname6n1  TS2019_16 xx.xx.xx.xx  15150
+hostname6n2  TS2019_17 xx.xx.xx.xx  15150
+hostmcdbc1n1 TS2019_14 xx.xx.xx.xx  15150
+hostmcdbc1n2 TS2019_15 xx.xx.xx.xx  15150
+hostmcdbc1n3 TS2019_16 xx.xx.xx.xx  15150
+hostssisc2n1  TS2019_12 xx.xx.xx.xx 15150
+hostssisc2n2  TS2019_13 xx.xx.xx.xx 15150
+hostname5n1  TS2019_1  xx.xx.xx.xx   15150
+hostname5n2  TS2019_2  xx.xx.xx.xx   15150
+hostname5n3  TS2019_3  xx.xx.xx.xx   15150
+hostname8n1  TS2019_17 xx.xx.xx.xx   15150
+hostname8n2  TS2019_18 xx.xx.xx.xx   15150
+hostname8n3  TS2019_19 xx.xx.xx.xx   15150
+hostname8n4  TS2019_20 xx.xx.xx.xx   15150
+hostnamec2n1    SB2022_1  xx.xx.xx.xx 15150
+hostnamec2n2    SB2022_2  xx.xx.xx.xx 15150
+hostdbcl1n1   PT2022_1  xx.xx.xx.xx  15150
+hostdbcl1n3   PT2022_2  xx.xx.xx.xx 15150
+depttreligdb01  TR2022_1  xx.xx.xx.xx 15150
+hostname4n1  TS2022_4  xx.xx.xx.xx 15150
+hostname4n3  TS2022_5  xx.xx.xx.xx 15150
+
+
+Querying hostname6n1\PR2019_10 (xx.xx.xx.xx)
+Databases:   8
+Querying hostname6n2\PR2019_11 (xx.xx.xx.xx)
+Databases:   8
+Querying hostname8n1\PR2019_27 (xx.xx.xx.xx)
+Databases:   1
+Querying hostname8n2\PR2019_28 (xx.xx.xx.xx)
+Databases:   1
+Querying hostname8n3\PR2019_29 (xx.xx.xx.xx)
+Databases:   1
+Querying hostmcidbc7n1\PR2019_18 (xx.xx.xx.xx)
+Databases:   7
+Querying hostmcidbc7n2\PR2019_19 (xx.xx.xx.xx)
+Databases:   7
+Querying hostmcidbc7n3\PR2019_20 (xx.xx.xx.xx)
+Databases:   7
+Querying hostssisc2n1\PR2019_12 (xx.xx.xx.xx)
+Databases:   26
+Querying hostssisc2n2\PR2019_13 (xx.xx.xx.xx)
+Databases:   21
+Querying hostname5n1\PR2019_1 (xx.xx.xx.xx)
+Databases:   24
+Querying hostname5n2\PR2019_2 (xx.xx.xx.xx)
+Databases:   22
+Querying hostname5n3\PR2019_3 (xx.xx.xx.xx)
+Databases:   9
+Querying hostname5n4\PR2019_4 (xx.xx.xx.xx)
+Databases:   23
+Querying hostname5n5\PR2019_5 (xx.xx.xx.xx)
+Databases:   24
+Querying hostname5n6\PR2019_6 (xx.xx.xx.xx)
+Databases:   53
+Querying hostname7n1\PR2019_22 (xx.xx.xx.xx)
+Databases:   4
+Querying hostname7n2\PR2019_23 (xx.xx.xx.xx)
+Databases:   4
+Querying hostname7n3\PR2019_24 (xx.xx.xx.xx)
+Databases:   7
+Querying hostname7n4\PR2019_25 (xx.xx.xx.xx)
+Databases:   7
+Querying hostname1n1\PR2022_3 (xx.xx.xx.xx)
+Databases:   31
+Querying hostname1n3\PR2022_4 (xx.xx.xx.xx)
+Databases:   30
+Querying hostname1n5\PR2022_5 (xx.xx.xx.xx)
+Databases:   31
+Querying hostnidbc2n1\PR2019_16 (xx.xx.xx.xx)
+Databases:   8
+Querying hostnidbc2n2\PR2019_17 (xx.xx.xx.xx)
+Databases:   7
+Querying hostnamecls6n1\TS2019_4 (xx.xx.xx.xx)
+Databases:   9
+Querying hostnamecls6n1\TS2019_5 (xx.xx.xx.xx)
+Databases:   9
+Querying hostnamecls6n1\TS2019_6 (xx.xx.xx.xx)
+Databases:   10
+Querying hostnamecls6n2\TS2019_7 (xx.xx.xx.xx)
+Databases:   9
+Querying hostnamecls6n2\TS2019_8 (xx.xx.xx.xx)
+Databases:   9
+Querying hostnamecls6n2\TS2019_9 (xx.xx.xx.xx)
+Databases:   10
+Querying hostdbcls2n1\PT2019_4 (xx.xx.xx.xx)
+Databases:   8
+Querying hostdbcls2n2\PT2019_5 (xx.xx.xx.xx)
+Databases:   8
+Querying hostmcidbc1n1\PT2019_1 (xx.xx.xx.xx)
+Databases:   9
+Querying hostmcidbc1n2\PT2019_2 (xx.xx.xx.xx)
+Databases:   7
+Querying hostmcidbc1n3\PT2019_3 (xx.xx.xx.xx)
+Databases:   7
+Querying hostname6n1\TS2019_16 (xx.xx.xx.xx)
+Databases:   2
+Querying hostname6n2\TS2019_17 (xx.xx.xx.xx)
+Databases:   3
+Querying hostmcdbc1n1\TS2019_14 (xx.xx.xx.xx)
+Databases:   15
+Querying hostmcdbc1n2\TS2019_15 (xx.xx.xx.xx)
+Databases:   15
+Querying hostmcdbc1n3\TS2019_16 (xx.xx.xx.xx)
+Databases:   14
+Querying hostssisc2n1\TS2019_12 (xx.xx.xx.xx)
+Databases:   5
+Querying hostssisc2n2\TS2019_13 (xx.xx.xx.xx)
+Databases:   3
+Querying hostname5n1\TS2019_1 (xx.xx.xx.xx)
+Databases:   40
+Querying hostname5n2\TS2019_2 (xx.xx.xx.xx)
+Databases:   35
+Querying hostname5n3\TS2019_3 (xx.xx.xx.xx)
+Databases:   12
+Querying hostname8n1\TS2019_17 (xx.xx.xx.xx)
+Databases:   18
+Querying hostname8n2\TS2019_18 (xx.xx.xx.xx)
+Databases:   17
+Querying hostname8n3\TS2019_19 (xx.xx.xx.xx)
+Databases:   13
+Querying hostname8n4\TS2019_20 (xx.xx.xx.xx)
+Databases:   13
+Querying hostnamec2n1\SB2022_1 (xx.xx.xx.xx)
+Databases:   10
+Querying hostnamec2n2\SB2022_2 (xx.xx.xx.xx)
+Databases:   3
+Querying hostdbcl1n1\PT2022_1 (xx.xx.xx.xx)
+Databases:   48
+Querying hostdbcl1n3\PT2022_2 (xx.xx.xx.xx)
+Databases:   46
+Querying depttreligdb01\TR2022_1 (xx.xx.xx.xx)
+Databases:   29
+Querying hostname4n1\TS2022_4 (xx.xx.xx.xx)
+Databases:   89
+Querying hostname4n3\TS2022_5 (xx.xx.xx.xx)
+Databases:   89
+**********************
+Windows PowerShell transcript end
+End time: 20251210142945
+**********************

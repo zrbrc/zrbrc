@@ -1,0 +1,20 @@
+USE DSS_WorkerWeb_UAT3;
+
+
+DECLARE @BeginDate DATE, @EndDate DATE;
+
+
+SET @BeginDate = CAST(DATEADD(M,-2,DATEADD(MM, DATEDIFF(M,0,GETDATE()), 0)) AS DATE);
+SET @EndDate = CAST(DATEADD(M,-1,DATEADD(MM, DATEDIFF(M,0,GETDATE()), 0)) AS DATE);
+
+SELECT 'Report Running For BeginDate: ' ,Cast(@BeginDate  AS VARCHAR(30)) ;
+SELECT 'Report Running For EndDate: ' ,Cast(@EndDate  AS VARCHAR(30)) ;
+
+
+
+SELECT NoticeLetter_TEXT,COUNT(1) AS '[NUMBER OF LETTERS GENERATED]' FROM [NOTICES].[ClientNoticeTriggersHistory_T] WHERE NoticeLetter_TEXT IN 
+('LCM016','LCM017','LCM019','LCM020','LCM021','LCM022','LCM023','LCM024','LCM025','LCM026','LCM027','LCM030','LCM031','LCM032','LCM033','LCM035','LCM036','LCM040','LCM041')
+AND Requested_Date between @BeginDate AND @EndDate 
+GROUP BY NoticeLetter_TEXT;
+
+
